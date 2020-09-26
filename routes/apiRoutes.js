@@ -37,29 +37,6 @@ router.delete("/api/notes/:id", function(req, res) {
     })
 })
 
-// router.delete("/api/notes/:id", function(req, res) {
-//     console.log(req.body);
-//     notesData.remove(req.body.id);
-
-
-//         fs.writeFile("./db/db.json", JSON.stringify(notesData), function() {
-//             res.json(notesData);
-//         })
-// });
-//     for (var i = 0; i < notesData.length; i++) {
-//         if (notesData[i].id === req.params.id) {
-//             notesData.splice(i, 1);
-//         }
-//     }
-
-//     fs.writeFile("./db/db.json", JSON.stringify(notesData), function() {
-//         res.json(notesData);
-//     })
-// });
-
-// // fs.writeFile(notesData);
-// // res.json(notesData);
-
 
 
 module.exports = router;
